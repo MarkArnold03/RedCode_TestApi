@@ -51,7 +51,7 @@ namespace RedCode_Test.Controllers
             {
                 return currentUser;
             }
-            return null;
+            return null!;
         }
 
         private string Generate(User user)
